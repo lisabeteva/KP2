@@ -1,6 +1,6 @@
 async function getResponce1() {
     
-     let responce = await fetch("/js/online.json")
+     let responce = await fetch("online.json")
  
      let content = await responce.text()
      console.log(content)
